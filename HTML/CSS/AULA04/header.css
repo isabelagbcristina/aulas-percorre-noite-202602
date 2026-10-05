@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 90px;
+    
+}
+
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#usuario {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 5px;
+    font-family: "Quicksand", sans-serif;
+}
+
+a{
+    font-family: "Quicksand", sans-serif;
+    padding-left: 19px;
+/*  o text decoration: nome remove o sublinhado do link ou  quaisquer outras decorações que uma tag textual possa ter   */
+    text-decoration: none;
+
+}
+
+#nome-usario{
+    font-family: "Quicksand", sans-serif;
+}
+
+#header-nav{
+    display: flex;
+    align-items: center;
+
+}
+
+footer{
+background-color: black;
+height: 400px;
+
+}
+
+#direitos {
+    color:  rgb(201, 8, 98);
+    font-family: "Quicksand", sans-serif;
+    font-size: 80;
+}
+#footer-nav{
+
+    
+}

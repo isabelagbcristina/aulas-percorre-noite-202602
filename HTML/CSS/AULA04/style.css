@@ -1,0 +1,12 @@
+#container {
+    background-color: darkred;
+}
+
+/* Ponto invoca classe */
+.quadrados {
+    background-color: cornsilk;
+    width: 200px;
+    height: 200px;
+    border: black 2px dashed;
+    border-radius: 35px;
+}
