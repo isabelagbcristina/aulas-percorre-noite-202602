@@ -1,0 +1,44 @@
+.container {
+    /* O container está flexível só que ordenando oa itens de cima para baixp */
+    display: flex;
+    flex-direction: column;
+
+    /* Por padrão o display flex ordena os itens em linha e isso faz com que justify na horizontal e aling na vertical. A partir do momento que colocamos flex-direction: columm os paéis se invertem e agora o justify funciona na vertical e o align na vertical. */
+    justify-content:space-evenly;
+    align-items: center;
+
+    width: 80vw;
+    height: 70vh;
+    background-color: coral;
+
+    border-radius: 50px;
+}
+
+.quadrados {
+    /* QUADRADO ARREDONDADO */
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    border-radius: 25%;
+
+    /* ALINHAR NÚMERO DENTRO DE UM QUADRADO */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* NÚMERO BRANCO */
+    color: aliceblue;
+    font-size: 80px
+}
+
+.tela {
+    background-color: peachpuff;
+    /* Centralizando os itens horizontal e vrticalmente na tela (body) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Como o display flex só abre espaço mo eixo main, é necessário configurar uma altura manualmente para que o BODY tenha uma caixa com altura que possibilite movimentar os itens internamente */
+
+    /* 90VH = 90% o view heigt (altura da vizualização) */
+    height: 90vh;
+}
