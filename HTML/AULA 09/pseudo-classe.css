@@ -1,0 +1,37 @@
+ol {
+    background-color: palevioletred;
+}
+
+li {
+    background: palevioletred;
+}
+
+li:hover {
+    border: 0.3px solid purple;
+    transition: 3s;
+    /* display: none; */
+}
+
+img:active {
+    width: 500px;
+    transition: 1s;
+}
+
+.revelacao {
+    display: flex;
+    background: palegoldenrod;
+    color: palegoldenrod;
+}
+
+.revelacao p:hover { 
+    color: white;
+    font-size: 200px;
+}
+
+/* nth-chils (2) seleciona o atibuto filho na ordem específicada, ou seja, no caso abaixo estamos selecionando o LI que é o quarto elemento dentro do OL.Isso é que chamamoa de pseuclasse posicional 
+
+Caso seja necesário selecionar múltiplos itens é possível utilizar ODD e EVEN no lugar dos números para selecionar pares e ímpares*/
+
+li:nth-child(odd) {
+    background: pink;
+}
